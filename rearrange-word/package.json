@@ -1,0 +1,45 @@
+{
+  "name": "rearrange-word",
+  "version": "1.0.13",
+  "keywords": [
+    "automatic word rearranger",
+    "word rearranger",
+    "jumble word rearranger",
+    "arrange jumble word",
+    "arrange jumble word automatically",
+    "word",
+    "rearranger",
+    "wordrearrange"
+  ],
+  "description": "Rearrange-word is a library which is used to convert jumbled word or scrambled word or meaningless word in to a proper meaningfull word.",
+  "main": "./dist/esm/rearrangeWord.js",
+  "types": "./dist/types/rearrangeWord.d.ts",
+  "exports": {
+    "import": "./dist/esm/rearrangeWord.js",
+    "require": "./dist/cjs/rearrangeWord.js",
+    "default": "./dist/esm/rearrangeWord.js"
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.esm.json & tsc --project tsconfig.cjs.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AbhishekChamoliDeveloper/rearrange-word/"
+  },
+  "author": {
+    "name": "Abhishek Chamoli",
+    "url": "https://github.com/AbhishekChamoliDeveloper"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbhishekChamoliDeveloper/rearrange-word/issues"
+  },
+  "homepage": "https://github.com/AbhishekChamoliDeveloper/rearrange-word/#readme",
+  "dependencies": {
+    "mathjs": "^10.6.4",
+    "wordlist-english": "^1.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
